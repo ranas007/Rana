@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>horizontal form </title>
+</head>
+
+<body >
+    <form action="success.html" method="post">
+        <table align="center" cellspacing="5" cellpadding="10" border="1" width="60%">
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>search bus</h3>
+
+                </td>
+            </tr>
+            <tr>
+                <td><label for="source">Form</label></td>
+                <td> <input type="text" name="source" id="source"> </td>
+            </tr>
+            <tr>
+                <td><label for="destination" > To</label></td>
+                <td><input type="text" name="destination" id="destination"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Journey_date">  Select Journey Date </label>
+                </td>
+                <td><input type="Date" id="journey date" name="journey date "></td>
+            </tr>
+            <tr>
+                <td><label for="seats">Seats</label></td>
+                <td>
+                    <Select name="seats" id="seats" required>
+                        <option value=""> select </option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Bus type"> Select type </label>
+                </td>
+                <td>
+                    <label for="Non ac">
+                        <input type="radio" id="non ac" name="bustype" value="1" >Non ac
+                    </label>
+                    <label for="Ac">
+                        <input type="radio" id="ac" name="bustype" value="2" >Ac
+                    </label>
+                    <label for="search">
+                        <input type="radio" id="sleeper" name="bustype" value="3" >Sleeper
+                    </label>
+                    <label for="Ac_sleeper">
+                        <input type="radio" id="ac_sleeper" name="bustype" value="4" >Ac_sleeper
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Select Gender">Selact Gender</label>
+                </td>
+                <td>
+                    <label for="Male">
+                        <input type="radio" name="gender" id="male">Male
+                    </label>
+                    <label for="Female">
+                        <input type="radio" name="gender" id="female">Female
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="Submit" value="Search">
+                    <input type="Reset" value="Clear all">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
