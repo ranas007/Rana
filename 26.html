@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minimum - maximum</title>
+</head>
+<body >
+    <form action="success2.html">
+        <table border="1" cellpadding="10" cellspacing="5"  align="center">
+            <tr>
+                <td>
+                    <label for="source">source</label>
+                    <input type="text" name="source" id="source" requird>
+                </td>
+                <td>
+                    <label for="destination">destination</label>
+                    <input type="text" name="destination" id="destination" required>
+                </td>
+                <td>
+                    <label for="journeydate">date</label>
+                    <input type="date" name="journeydate" id="journeydate"
+                    min="01-04-2025" max="31-3-2026">
+                    
+                </td>
+                <td>
+                    <label for="seats">seats</label>
+                    <input type="number" name="seats" id="seats" min="1" max="6">
+                </td>
+                <td>
+                    <label for="">bustype</label>
+                    <input type="radio" name="sleeper" value="1">sleeper
+                    <input type="radio" name="ac_sleeper" value="2">ac_sleeper
+                    <input type="radio" name="non_ac" value="3">non_ac
+                    <input type="radio" name="ac" value="4">ac
+                </td>
+                <td align="center">
+                    <input type="submit" value="submit">
+                    <input type="reset" value="clear all">
+                </td> 
+            </tr>
+
+        </table>
+    </form>
+    
+</body>
+</html>
